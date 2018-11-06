@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this,R.layout.listviewsinglecolumn,FRUITS);
         listView.setAdapter(arrayAdapter);
         listView.setOnItemClickListener(this);
+        //1차수정
 
 
     }
