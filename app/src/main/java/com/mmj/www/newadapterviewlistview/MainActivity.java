@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //comment 2
         // 2차수정-moon
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
